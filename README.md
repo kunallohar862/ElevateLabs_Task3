@@ -12,7 +12,7 @@ SQL operations often begin with retrieving data using the `SELECT` statement. Fo
 SELECT name, age FROM students;
 Filtering records is done with WHERE:
 
-sql
+```sql
 Copy
 Edit
 SELECT name FROM students WHERE age > 18;
