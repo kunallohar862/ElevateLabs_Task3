@@ -38,6 +38,7 @@ SELECT department, COUNT(*) FROM employees GROUP BY department;
 
 Combine data from multiple tables based on relationships.
 
+```sql
 -- INNER JOIN
 SELECT s.name, c.course_name
 FROM students s
